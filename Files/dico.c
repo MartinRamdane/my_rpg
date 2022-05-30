@@ -1,0 +1,177 @@
+/*
+** EPITECH PROJECT, 2021
+** my_printf.c
+** File description:
+** my_printf
+*/
+
+#include "../Includes/my.h"
+
+char *get_char(int key)
+{
+    switch (key) {
+        case sfKeyA:
+            return "A";
+        case sfKeyB:
+            return "B";
+        case sfKeyC:
+            return "C";
+        case sfKeyD:
+            return "D";
+        case sfKeyE:
+            return "E";
+        case sfKeyF:
+            return "F";
+        case sfKeyG:
+            return "G";
+        case sfKeyH:
+            return "H";
+        case sfKeyI:
+            return "I";
+        case sfKeyJ:
+            return "J";
+        case sfKeyK:
+            return "K";
+        case sfKeyL:
+            return "L";
+        case sfKeyM:
+            return "M";
+        case sfKeyN:
+            return "N";
+        case sfKeyO:
+            return "O";
+        case sfKeyP:
+            return "P";
+        case sfKeyQ:
+            return "Q";
+        case sfKeyR:
+            return "R";
+        case sfKeyS:
+            return "S";
+        case sfKeyT:
+            return "T";
+        case sfKeyU:
+            return "U";
+        case sfKeyV:
+            return "V";
+        case sfKeyW:
+            return "W";
+        case sfKeyX:
+            return "X";
+        case sfKeyY:
+            return "Y";
+        case sfKeyZ:
+            return "Z";
+        case (sfKeySpace):
+            return ("Space");
+        case (sfKeyLShift):
+            return ("LShift");
+        case (sfKeyRShift):
+            return ("RShift");
+        case (sfKeyBackspace):
+            return ("Bspace");
+        case (sfKeyEnter):
+            return ("Enter");
+        case (sfKeyLControl):
+            return ("LCtrl");
+        case (sfKeyRControl):
+            return ("RCtrl");
+        case (sfKeyUp):
+            return ("Up");
+        case (sfKeyDown):
+            return ("Down");
+        case (sfKeyLeft):
+            return ("Left");
+        case (sfKeyRight):
+            return ("Right");
+        case (sfKeyEscape):
+            return ("Escape");
+        case (sfKeyTab):
+            return ("Tab");
+    }
+    return ("\0");
+}
+
+
+int get_key(void)
+{
+    if (sfKeyboard_isKeyPressed(sfKeyA))
+        return sfKeyA;
+    if (sfKeyboard_isKeyPressed(sfKeyB))
+        return sfKeyB;
+    if (sfKeyboard_isKeyPressed(sfKeyC))
+        return sfKeyC;
+    if (sfKeyboard_isKeyPressed(sfKeyD))
+        return sfKeyD;
+    if (sfKeyboard_isKeyPressed(sfKeyE))
+        return sfKeyE;
+    if (sfKeyboard_isKeyPressed(sfKeyF))
+        return sfKeyF;
+    if (sfKeyboard_isKeyPressed(sfKeyG))
+        return sfKeyG;
+    if (sfKeyboard_isKeyPressed(sfKeyH))
+        return sfKeyH;
+    if (sfKeyboard_isKeyPressed(sfKeyI))
+        return sfKeyI;
+    if (sfKeyboard_isKeyPressed(sfKeyJ))
+        return sfKeyJ;
+    if (sfKeyboard_isKeyPressed(sfKeyK))
+        return sfKeyK;
+    if (sfKeyboard_isKeyPressed(sfKeyL))
+        return sfKeyL;
+    if (sfKeyboard_isKeyPressed(sfKeyM))
+        return sfKeyM;
+    if (sfKeyboard_isKeyPressed(sfKeyN))
+        return sfKeyN;
+    if (sfKeyboard_isKeyPressed(sfKeyO))
+        return sfKeyO;
+    if (sfKeyboard_isKeyPressed(sfKeyP))
+        return sfKeyP;
+    if (sfKeyboard_isKeyPressed(sfKeyQ))
+        return sfKeyQ;
+    if (sfKeyboard_isKeyPressed(sfKeyR))
+        return sfKeyR;
+    if (sfKeyboard_isKeyPressed(sfKeyS))
+        return sfKeyS;
+    if (sfKeyboard_isKeyPressed(sfKeyT))
+        return sfKeyT;
+    if (sfKeyboard_isKeyPressed(sfKeyU))
+        return sfKeyU;
+    if (sfKeyboard_isKeyPressed(sfKeyV))
+        return sfKeyV;
+    if (sfKeyboard_isKeyPressed(sfKeyW))
+        return sfKeyW;
+    if (sfKeyboard_isKeyPressed(sfKeyX))
+        return sfKeyX;
+    if (sfKeyboard_isKeyPressed(sfKeyY))
+        return sfKeyY;
+    if (sfKeyboard_isKeyPressed(sfKeyZ))
+        return sfKeyZ;
+    if (sfKeyboard_isKeyPressed(sfKeyEscape))
+        return sfKeyEscape;
+    if (sfKeyboard_isKeyPressed(sfKeySpace))
+        return sfKeySpace;
+    if (sfKeyboard_isKeyPressed(sfKeyLShift))
+        return sfKeyLShift;
+    if (sfKeyboard_isKeyPressed(sfKeyRShift))
+        return sfKeyRShift;
+    if (sfKeyboard_isKeyPressed(sfKeyEnter))
+        return sfKeyEnter;
+    if (sfKeyboard_isKeyPressed(sfKeyBackspace))
+        return sfKeyBackspace;
+    if (sfKeyboard_isKeyPressed(sfKeyRControl))
+        return sfKeyRControl;
+    if (sfKeyboard_isKeyPressed(sfKeyLControl))
+        return sfKeyLControl;
+    if (sfKeyboard_isKeyPressed(sfKeyUp))
+        return sfKeyUp;
+    if (sfKeyboard_isKeyPressed(sfKeyDown))
+        return sfKeyDown;
+    if (sfKeyboard_isKeyPressed(sfKeyRight))
+        return sfKeyRight;
+    if (sfKeyboard_isKeyPressed(sfKeyLeft))
+        return sfKeyLeft;
+    if (sfKeyboard_isKeyPressed(sfKeyTab))
+        return sfKeyTab;
+    return 0;
+}

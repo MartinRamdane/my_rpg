@@ -1,0 +1,14 @@
+Pictures/rect_transparent.png, 864, 396, 208, 16
+Pictures/rect_transparent.png, 864, 412, 16, 16
+Pictures/rect_transparent.png, 848, 412, 16, 272
+Pictures/rect_transparent.png, 848, 668, 104, 16
+Pictures/rect_transparent.png, 968, 668, 104, 16
+Pictures/rect_transparent.png, 1056, 396, 16, 288
+Pictures/rect_transparent.png, 864, 622, 32, 29
+Pictures/rect_transparent.png, 1042, 602, 14, 20
+Pictures/rect_transparent.png, 864, 428, 32, 16
+Pictures/rect_transparent.png, 896, 492, 16, 176
+Pictures/rect_transparent.png, 912, 492, 40, 16
+Pictures/rect_transparent.png, 968, 492, 40, 16
+Pictures/rect_transparent.png, 1008, 492, 16, 96
+Pictures/rect_transparent.png, 992, 572, 16, 96

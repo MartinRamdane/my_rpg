@@ -1,0 +1,5 @@
+1,Pictures/item/sword.png,Sword,To get attack&points,3;
+2,Pictures/item/potion.png,Potion,To get a much&life points.,2;
+3,Pictures/item/bananas.png,Bananas,To get a little&life points.,2;
+4,Pictures/item/boots.png,Boots,To run more long&time.,3;
+5,Pictures/item/shield.png,Shield,To have more defense.&,3;

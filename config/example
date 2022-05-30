@@ -1,0 +1,9 @@
+Pour la liste d'objet :
+    Example d'objet :
+    '1','texture','sprite','rect','posx','posy','name','desc','type';
+
+    Example de dialogue :
+    '1','string';
+
+    Example de pnj :
+    '1','texture','sprite','rect','posx','posy','name','type','dialogue','vie','mana','attack','crit';
